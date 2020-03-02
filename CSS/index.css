@@ -1,0 +1,117 @@
+@font-face {
+  font-family: hamzaFont;
+  src: url("../Font/Sansation_Regular.ttf");
+}
+* {
+  font-family: hamzaFont;
+}
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #193eb6;
+  background-image: url("https://media.playstation.com/is/image/SCEA/flow?$native_nt$");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+.btn-group a button {
+  color: white;
+  border-radius: 0px;
+  text-decoration: none;
+}
+.btn-group button {
+  border-radius: 0px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown span {
+  margin-left: 22px;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content p {
+  background-color: rgb(173, 192, 211);
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+img {
+  height: 800px;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+@media screen and (min-width: 831px) {
+  img {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 830px) {
+  img {
+    height: 350px;
+    padding-top: 250px;
+  }
+}
+@media screen and (max-width: 430px) {
+  img {
+    height: 300px;
+  }
+}
